@@ -1,5 +1,12 @@
-function test() {
-  alert("ca marche");
-}
+let answer = document.querySelectorAll(".answer");
+let qtext = document.querySelectorAll("div.qtext");
+q = [];
+r = [];
+qtext.forEach(function (e) {
+  q.push(e.innerText);
+});
+answer.forEach(function (e) {
+  r.push(e.innerText);
+});
 
-test();
+console.log(q, r);
