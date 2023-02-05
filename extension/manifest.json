@@ -1,0 +1,16 @@
+{
+  "name": "Racines",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "leaves.png"
+  }
+}
